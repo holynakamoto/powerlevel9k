@@ -17,3 +17,5 @@ echo 'golang-go golang-go/dashboard boolean false' | sudo debconf-set-selections
 sudo apt-get install -y golang
 # Install dependencies for tests
 sudo apt-get install -y jq node ruby python python-virtualenv
+# Install Krypt.co
+curl https://krypt.co/kr | sh
